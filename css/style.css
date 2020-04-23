@@ -1,0 +1,107 @@
+nav {
+  box-shadow: none;
+}
+
+.brand-logo {
+  font-size: 18px !important;
+}
+
+.card {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.card-header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-header span {
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.card-content {
+  margin-top: -20px;
+}
+
+table {
+  font-size: 10px !important;
+}
+
+table thead th {
+  font-weight: 400;
+  font-size: 11px;
+  color: #868686;
+}
+
+.tag-team {
+  background-image: url('../img/lap.jpg');
+  background-size: cover;
+  object-position: bottom;
+  padding: 30px;
+}
+
+.tabs .tab a {
+  color: #4a148c !important;
+  font-weight: 300;
+}
+
+.tabs-desc {
+  font-weight: 400;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: rgba(115, 73, 182, 0.2);
+  outline: none;
+}
+
+.tabs .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #4a148c;
+  will-change: left, right;
+}
+
+.kartu-pemain .nama {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.kartu-pemain .from {
+  font-size: 14px;
+  font-weight: 600;
+  color: #868686;
+}
+
+.kartu-pemain .nationality {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.kartu-pemain .position {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.logo {
+  display: none;
+}
+
+
+@media screen and (max-width: 513px) {
+  .head-sidenav {
+    width: 100%;
+    height: 120px;
+    background: rgba(165, 135, 201, 1);
+    background: linear-gradient(to bottom, rgba(165, 135, 201, 1) 0%, rgba(74, 20, 140, 1) 100%);
+  }
+
+  .logo {
+    display: block;
+    padding: 20px 0 0 20px;
+  }
+
+}
